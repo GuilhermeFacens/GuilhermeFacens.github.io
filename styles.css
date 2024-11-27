@@ -38,11 +38,6 @@ nav ul li a:hover {
 main {
     padding: 20px;
     text-align: center;
-    background-color: #bbdefb; /* Azul claro para contraste na área principal */
-    border-radius: 10px; /* Bordas arredondadas */
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 footer {
@@ -53,4 +48,29 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Estilo do campo em destaque */
+.highlight {
+    background-color: #0288d1; /* Azul mais escuro que o fundo */
+    color: #ffffff; /* Texto branco */
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    display: inline-block;
+    text-align: center;
+}
+
+.highlight a {
+    color: #ffd700; /* Dourado para destacar o link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.highlight a:hover {
+    text-decoration: underline;
 }
