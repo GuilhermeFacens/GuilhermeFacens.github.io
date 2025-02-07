@@ -74,3 +74,16 @@ footer {
 .highlight a:hover {
     text-decoration: underline;
 }
+
+.text {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.text:hover {
+    font-weith: bold;
+    background-color: yellow;
+    cursor: pointer;
+}
+
